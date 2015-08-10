@@ -10,8 +10,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/question_text"
-        android:id="@+id/textView" />
+        android:id="@+id/question_text_view" />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -30,5 +29,11 @@
             android:text="@string/false_button"
             android:id="@+id/false_button" />
     </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_button"
+        android:id="@+id/next_button"/>
 
 </LinearLayout>
